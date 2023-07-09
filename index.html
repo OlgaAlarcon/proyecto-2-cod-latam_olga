@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olga Alarcón</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                 <li class="loguito"><a href="#"><img src="imagen/milogo.png" alt="logotipo"></a></li>
+                 <input type="checkbox" id="check">
+                 <span class="menu">
+                     <li><a href="#inicio">Incio</a></li>
+                     <li><a href="#mis-proyectos">Mis Proyectos</a></li>
+                     <li><a href="#contacto">Contacto</a></li>
+                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                 </span>
+                 <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+             </ul>     
+         </nav>
+        
+    </header>
+    <main>
+        <section class="completo">
+            <section class="foto">
+                <a href="/"><img src="imagen/my-picture.jpg" alt="My picture" ></a>
+            </section>
+            <section class="firts-section" id="inicio">
+                <h1>Hola soy Olga</h1>
+                <p>Soy una persona empática que valora mucho el conocimiento adquirido, con una actitud proactiva, me adapto al cambio, capacidad de liderazgo y trabajo en equipo. En lo profesional estudios universitarios en Venezuela. Tengo experencia en atención al cliente y ventas através de internet. Conocomientos básicos en HTML, CSS y Javascript. Con la misión y visión de profesionalizarme en este mundo del Desarrollo Web.</p>
+                <button class="download-button" onclick="downloadFile()">Descargar Mi CV</button>
+            </section>
+        </section>
+        <section class="en-construccion" id="mis-proyectos">
+            <h2>Mis Proyecto</h2>
+            <p>¡Pronto estará disponible!</p>
+            <a href=""><img src="imagen/page-construction.gif" alt="En construcción"></a>
+        </section>
+        <section class="second-section" id="contacto">
+            <h2>Hablemos!</h2>
+            <p>
+                En la actualidad en plan de formación avanzada para expandir mis conocimientos en Desarrollo Web. Información adicional, mensaje o llamada al número +57 3127124114, correo electronico olguitaalar25@gmail.com.
+            </p>
+        </section>
+        <section class="icons">
+            <a href="mailto:allprojects50@gmail.com"><img src="imagen/mail.png" alt="Mail"></a>
+            <a href="https://github.com/OlgaAlarcon"><img src="imagen/github.png" alt="Github"></a>
+            <a href="https://www.linkedin.com/feed/?trk=onboarding-landing"><img src="imagen/linkedin.png" alt="Linkedin"></a>    
+        </section>
+    </main>
+    <footer>
+        <h4>Código Latam - O. Alarcón junio 2023</h4>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
